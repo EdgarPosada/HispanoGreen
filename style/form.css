@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/11/2013, 01:49:25 PM
+    Author     : Edgar
+*/
+
+#contenedor{
+text-align: left;
+width: 750px;
+margin: auto;}
+
+#lateral{
+width: 0px;  /*Este será el ancho que tendrá tu columna*/
+background-color: #CCCCCC;  /*Aquí pon el color del fondo que quieras para este lateral*/
+float:left; /*Aqui determinas de lado quieres quede esta "columna" */
+}
+
+#principal{
+margin-right:1000px; /*Este margen hace que no se encime el contenido en tu menúlateral, es     importante que pongas un pocos pixeles más que el ancho  de tu columna lateral*/
+background-color: #FFFFFF;
+border:#000000 1px solid; /*ponemos un dorde para que se vea bonito*/
+}
